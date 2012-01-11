@@ -5,7 +5,7 @@
  * 
  * This provides a toggle switch widget 
  *
- * @package scss
+ * @package plugin
  * @author David Durost <david.durost@gmail.com>
  * @see sfWidgetFormInputCheckbox
  */
