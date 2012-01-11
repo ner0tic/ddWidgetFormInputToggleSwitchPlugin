@@ -29,11 +29,11 @@ form widget to the framework's arsenal.
 
         symfony plugin:publish-assets
 
-  * Plugin settings
+## Settings ##
 
-        // config/app.yml
-        all:
-          ddWidgetFormInputToggleSwitchPlugin:
-            include_js: false
-            js_path: /js
-            css_path: /css
+   // config/app.yml
+   all:
+     ddWidgetFormInputToggleSwitchPlugin:
+       include_js: false
+       js_path: /js
+       css_path: /css
