@@ -1,0 +1,39 @@
+# ddWidgetFormInputToggleSwitch plugin (for symfony 1.4) #
+
+The `ddWidgetFormInputToggleSwitch is a symfony plugin that adds a toggle switch
+form widget to the framework's arsenal.
+
+## Installation ##
+
+  * Install the plugin (via a package)
+
+        cd plugins/
+        git clone git://github.com/ner0tic/ddWidgetFormInputToggleSwitchPlugin.git
+
+
+
+  * Activate the plugin in the `config/ProjectConfiguration.class.php`
+
+        [php]
+        class ProjectConfiguration extends sfProjectConfiguration
+        {
+          public function setup()
+          {
+            ...
+            $this->enablePlugins('ddWidgetFormInputToggleSwitchPlugin');
+            ...
+          }
+        }
+
+  * Publish the assets
+
+        symfony plugin:publish-assets
+
+  * Plugin settings
+
+        // config/app.yml
+        all:
+          ddWidgetFormInputToggleSwitchPlugin:
+            include_js: false
+            js_path: /js
+            css_path: /css
