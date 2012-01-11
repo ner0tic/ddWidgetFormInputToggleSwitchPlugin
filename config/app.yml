@@ -1,0 +1,5 @@
+all:
+  ddWidgetFormInputToggleSwitchPlugin:
+    include_js: false
+    js_path: /js
+    css_path: /css
